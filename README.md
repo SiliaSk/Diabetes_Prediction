@@ -11,5 +11,6 @@ I began building the neural network by setting the input layer with 8 neurons, m
 Its accuracy was around 74%, not sufficiently high, but this is expected given the simplicity of the model and the dataset. The next step was to build a logistic regression model and calculate its accuracy for comparison. The logistic regression model had an accuracy of around 75%, which is quite close to the accuracy of the neural network.
 
 # Observations
-- Similar accuracy levels:
+- Similar accuracy levels: Both the neural network and logistic regression achieved similar accuracy levels. This likely happens because the Pima Indians Diabetes dataset is relatively small and lacks high complexity.
+- Neural Network Generalization: The neural network demonstrated that even with a simple architecture (2 hidden layers with 8 neurons each), it can generalize as effectively as traditional machine learning models on this dataset. 
 
