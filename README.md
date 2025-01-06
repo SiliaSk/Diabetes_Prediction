@@ -6,5 +6,4 @@ Firstly, I imported the dataset and defined my data frame. Next, I split the dat
 
 In this case, it was necessary to normalize the features in X_train and X_test (scaling) to ensure that all variables were on the same scale, thereby improving the performance and stability of the model.
 
-I began building the neural network by setting the input layer with 8 neurons, matching the number of features in the dataset. Then, I added two hidden layers, each with 8 neurons and ReLU activation. The output layer has 1 neuron with a sigmoid activation to predict a probability for binary classification (0 or 1).
-
+I began building the neural network by setting the input layer with 8 neurons, matching the number of features in the dataset. Then, I added two hidden layers, each with 8 neurons and ReLU activation. The output layer has 1 neuron with a sigmoid activation to predict a probability for binary classification (0 or 1). After that, I prepared the model for training by choosing binary cross-entropy as the loss function because we have a binary classification task. The Adam optimizer was chosen to adjust the learning rate, and accuracy was chosen as the metric to evaluate the model's performance.
