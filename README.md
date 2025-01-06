@@ -10,4 +10,6 @@ I began building the neural network by setting the input layer with 8 neurons, m
 
 Its accuracy was around 74%, not sufficiently high, but this is expected given the simplicity of the model and the dataset. The next step was to build a logistic regression model and calculate its accuracy for comparison. The logistic regression model had an accuracy of around 75%, which is quite close to the accuracy of the neural network.
 
-# Conclusions
+# Observations
+- Similar accuracy levels:
+
