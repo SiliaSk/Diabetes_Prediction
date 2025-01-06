@@ -14,3 +14,5 @@ Its accuracy was around 74%, not sufficiently high, but this is expected given t
 - Similar accuracy levels: Both the neural network and logistic regression achieved similar accuracy levels. This likely happens because the Pima Indians Diabetes dataset is relatively small and lacks high complexity.
 - Neural Network Generalization: The neural network demonstrated that even with a simple architecture (2 hidden layers with 8 neurons each), it can generalize as effectively as traditional machine learning models on this dataset. 
 
+# Conclusion
+Neural networks are typically more effective with larger and more complex datasets. However, I chose to build a simple neural network using a basic dataset to gain practice. Its good accuracy shows the potential of more advanced neural network architectures when used with larger and more complex datasets.
