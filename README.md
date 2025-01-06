@@ -9,3 +9,5 @@ In this case, it was necessary to normalize the features in X_train and X_test (
 I began building the neural network by setting the input layer with 8 neurons, matching the number of features in the dataset. Then, I added two hidden layers, each with 8 neurons and ReLU activation. The output layer has 1 neuron with a sigmoid activation to predict a probability for binary classification (0 or 1). After that, I prepared the model for training by choosing binary cross-entropy as the loss function because we have a binary classification task. The Adam optimizer was chosen to adjust the learning rate, and accuracy was chosen as the metric to evaluate the model's performance. Finally, I trained the model and used the test set to validate its performance. 
 
 Its accuracy was around 74%, not sufficiently high, but this is expected given the simplicity of the model and the dataset. The next step was to build a logistic regression model and calculate its accuracy for comparison. The logistic regression model had an accuracy of around 75%, which is quite close to the accuracy of the neural network.
+
+# Conclusions
